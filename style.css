@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(to right, orange, rgb(238, 161, 18));
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10% 0;
+}
+
+/* nav section  */
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.nav-items {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:first-child {
+  border-bottom-color: white;
+}
+
+.nav-links a:hover {
+  border-bottom-color: white;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 999px;
+  width: 110px;
+  height: 70%;
+  padding: 3px 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: white;
+  color: #333;
+}
+
+/* main section   */
+
+main {
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  width: 290px;
+  height: 320px;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.trend {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.main-logo h6 {
+  font-size: 15px;
+}
+
+.main-logo h1 {
+  font-size: 60px;
+}
+
+.description {
+  margin-top: -40px;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.play-btn {
+  background-color: #fff;
+  color: #333;
+  height: 40px;
+}
+
+.watch-btn {
+  width: 150px;
+  height: 40px;
+  white-space: nowrap;
+}
+
+.play-btn:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.watch-btn:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.images {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  width: 60%;
+  height: 100%;
+}
+
+.images img {
+  width: 100%;
+  height: 100%;
+}
